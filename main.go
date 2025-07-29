@@ -7,16 +7,14 @@ import (
 )
 
 type SkillJson struct {
-	Background1 string   `json:"background1"`
-	Background2 string   `json:"background2"`
-	Expertise   []string `json:"expertise"`
-	Aproach     string   `json:"aproach"`
+	Background string   `json:"background1"`
+	Expertise  []string `json:"expertise"`
+	Aproach    string   `json:"aproach"`
 }
 
 var Skills = []SkillJson{
 	{
-		Background1: "Over two years of experience in web and mobile development, I specialize in creating clean, efficient, and user-centered digital experiences.",
-		Background2: "My approach comines technical expertise with a strong design sensibility, allowing me to build solutions that are both visually compelling and functionally robust.",
+		Background: "Over two years of experience in web and mobile development, I specialize in creating clean, efficient, and user-centered digital experiences.",
 		Expertise: []string{
 			"Frontend Development (React, Astro, Vue, Sass, Angular — currently learning)",
 			"Backend Development (Express, Flask, FastAPI, Go)",
