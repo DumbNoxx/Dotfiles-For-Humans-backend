@@ -7,7 +7,7 @@ import (
 )
 
 type SkillJson struct {
-	Background string   `json:"background1"`
+	Background string   `json:"background"`
 	Expertise  []string `json:"expertise"`
 	Aproach    string   `json:"aproach"`
 }
