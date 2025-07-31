@@ -9,7 +9,7 @@ import (
 type SkillJson struct {
 	Background string   `json:"background"`
 	Expertise  []string `json:"expertise"`
-	Aproach    string   `json:"aproach"`
+	Approach   string   `json:"approach"`
 }
 
 var Skills = []SkillJson{
@@ -22,7 +22,7 @@ var Skills = []SkillJson{
 			"UI/UX Design & Implementation",
 			"Performance Optimization",
 		},
-		Aproach: "I believe in minimalism not just as an aesthetic choice, but as a development philosophy. By focusing on what truly matters and eliminating unnecessary complexity, I create digital products that are intuitive, maintainable, and built to last.",
+		Approach: "I believe in minimalism not just as an aesthetic choice, but as a development philosophy. By focusing on what truly matters and eliminating unnecessary complexity, I create digital products that are intuitive, maintainable, and built to last.",
 	},
 }
 
