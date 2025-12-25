@@ -18,7 +18,7 @@ var Skills = []SkillJson{
 		Expertise: []string{
 			"Frontend Development (React, Astro, Vue, Sass, Angular)",
 			"Backend Development (Express, Flask, FastAPI, Go)",
-			"Mobile Development (React Native)",
+			"Mobile Development (React Native, Flutter)",
 			"UI/UX Design & Implementation",
 			"Performance Optimization",
 		},
