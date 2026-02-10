@@ -17,8 +17,9 @@ var Skills = []SkillJson{
 		Background: "Over three years of experience in software development, I specialize in creating clean, efficient, and user-centered digital experiences.",
 		Expertise: []string{
 			"Frontend Development (React, Astro, Vue, Sass, Angular)",
-			"Backend Development (Express, Flask, FastAPI, Go)",
+			"Backend Development (Express, NestTS, HonoTS, Flask, FastAPI, Go)",
 			"Mobile Development (React Native, Flutter)",
+			"Systems Programming (Rust, Go, C, C++, Zig - Current Learning)",
 			"UI/UX Design & Implementation",
 			"Performance Optimization",
 		},
